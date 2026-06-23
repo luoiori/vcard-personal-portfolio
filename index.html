@@ -1,25 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>罗钦 - 技术负责人</title>
+  <meta name="description" content="罗钦，13 年 Java 后端及全栈开发经验，熟悉 Spring Cloud、MySQL、Redis、Kafka、Dubbo、Docker、K8S 等技术。">
 
-  <!--
-    - favicon
-  -->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -27,33 +18,26 @@
 
 <body>
 
-  <!--
-    - #MAIN
-  -->
-
   <main>
-
-    <!--
-      - #SIDEBAR
-    -->
 
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+          <img src="./assets/images/my-avatar.png" alt="罗钦" width="80">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
-
-          <p class="title">Web developer</p>
+          <h1 class="name" title="罗钦">罗钦</h1>
+          <div class="title-list">
+            <p class="title">技术负责人</p>
+            <p class="title">13年工作经验</p>
+          </div>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
+          <span>联系方式</span>
           <ion-icon name="chevron-down"></ion-icon>
         </button>
 
@@ -66,83 +50,53 @@
         <ul class="contacts-list">
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
+              <p class="contact-title">邮箱</p>
+              <a href="mailto:iori.law.cn@gmail.com" class="contact-link">iori.law.cn@gmail.com</a>
             </div>
-
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="phone-portrait-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+              <p class="contact-title">电话</p>
+              <a href="tel:17688958885" class="contact-link">17688958885</a>
             </div>
-
           </li>
 
           <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">June 23, 1982</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="location-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Sacramento, California, USA</address>
+              <p class="contact-title">现居</p>
+              <address>广州</address>
             </div>
-
           </li>
 
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">经验</p>
+              <time>13 年工作经验</time>
+            </div>
           </li>
 
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="flash-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">状态</p>
+              <time>在职</time>
+            </div>
           </li>
 
         </ul>
@@ -151,1027 +105,191 @@
 
     </aside>
 
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
     <div class="main-content">
 
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
+      <article class="about active" data-page="概览">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title">简介</h2>
         </header>
 
         <section class="about-text">
           <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
+            13 年全栈后端与生产系统交付经验，偏结果导向的技术负责人。能够把业务从想法推进到生产可用，覆盖架构设计、核心研发、上线发布、云资源、容器编排、监控告警、性能定位、故障恢复和持续运维，适合直接负责复杂系统落地与长期稳定性的团队角色。
           </p>
 
           <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
+            主攻 Java 后端，同时具备 Go、Vue、Kubernetes、AWS 和 DevOps 实战能力。长期处理生产事故、服务器升级迁移、服务资源优化、运营成本控制和基础平台建设，能从业务系统做到研发效能、运维体系和工程规范，在高并发、性能优化、服务治理、支付、IM、数据同步和 K8S 云原生方向有完整落地经验。
+          </p>
+
+          <p>
+            具备团队技术管理和工程质量把控经验，带过 8 人团队，负责开发规范制定、技术方案评审和 Code Review。近一年持续实践 vibe coding，将 AI 辅助融入日常研发、问题分析、优化建议、代码漏洞扫描和技术方案对比，关注更快验证方案、更快定位问题，并更稳地把系统推到生产环境。
           </p>
         </section>
 
+      </article>
 
-        <!--
-          - service
-        -->
+      <article class="resume active" data-page="工作经历">
 
-        <section class="service">
+        <header>
+          <h2 class="h2 article-title">工作经历</h2>
+        </header>
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+        <section class="experience">
+          <ol class="experience-list">
 
-          <ul class="service-list">
+            <li class="experience-item">
+              <h4 class="h4 experience-item-title">核芯互乐 · 后端负责人</h4>
+              <span>2023/02 — 至今</span>
+              <p class="timeline-text">
+                <strong>项目介绍：</strong>面向中东市场的实时语音社交产品矩阵，以多人语聊房为核心互动场景，围绕公会运营、薪酬结算、榜单激励、用户定制化和活动玩法构建完整业务闭环。平台已孵化多个项目，最近项目支撑 QPS 2000、DAU 30000、注册用户 200 万级业务规模。
+              </p>
+              <p class="timeline-text">
+                <strong>个人贡献：</strong>作为后端负责人，主导 4 个项目的架构演进、核心研发、上线发布和生产运维，负责关键技术决策与结果落地。围绕支付、IM、公会、活动、榜单等核心链路建立变更评审、发布观测和问题复盘机制，将复杂业务沉淀为可长期运行、可观测、可治理的工程体系。
+              </p>
+              <p class="timeline-text">
+                主导发布体系升级，将原有手工操作演进为基于 K8S 的标准化发布链路，支持界面构建触发、仓库推送、生产灰度更新、异常服务隔离和一键回滚；配套服务监控与错误推送能力，做到随时随地掌握生产状态，异常时能够及时止损和快速回滚。
+              </p>
+              <p class="timeline-text">
+                从 0 到 1 搭建 CI/CD、全链路日志平台、服务监控平台、配置中心、定时任务平台、生产 SQL 审核平台，支持日志统一收集、检索查询、慢 SQL 统计与优化，打通研发交付、线上观测和生产风险控制链路。
+              </p>
+              <p class="timeline-text">
+                推动核心链路架构升级，重构服务并补齐服务网关能力，落地静态资源压缩与多媒体资源压缩方案；其中 IM 重构有效减少服务器开支、提升并发承载能力，并优化用户在房内的实时互动体验。
+              </p>
+              <p class="timeline-text">
+                深度参与生产事故处理和线上性能定位，能够快速收敛故障范围、定位关键链路并推进修复闭环。负责支付中台、统一审计等核心能力建设，制定开发规范，组织技术方案评审和 Code Review，带 8 人团队完成复杂业务交付，并引入 vibe coding 辅助研发提效、漏洞扫描和方案对比。
+              </p>
+              <p class="timeline-text">
+                <strong>日常工作：</strong>负责需求评审、方案设计、核心开发、上线排期、线上巡检、告警响应、故障复盘、容量评估和成本优化，持续保障业务交付效率与生产稳定性。
+              </p>
+            </li>
 
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
-
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
+            <li class="experience-item is-toggleable is-collapsed">
+              <h4 class="h4 experience-item-title">上海领健信息技术有限公司 · 资深开发</h4>
+              <span>2022.5 — 2022.9</span>
+              <div class="experience-detail" id="experience-lingjian">
+                <p class="timeline-text">
+                  <strong>项目介绍：</strong>公司聚焦美容行业 SaaS 平台服务，为美容、美体、医美、养生等门店提供一站式数字化经营系统，覆盖门店收银、会员管理、卡项套餐、项目预约、员工绩效、营销活动、经营报表和多门店连锁管理等核心场景。平台与美团、抖音、大众点评等主流团购和内容流量平台合作，打通线上获客、到店核销、门店履约、会员沉淀和复购转化链路，服务 300+ 签约租户，帮助门店提升经营效率和客户生命周期价值。
+                </p>
+                <p class="timeline-text">
+                  <strong>个人贡献：</strong>参与领健悦己智慧连锁店务管理系统建设，负责团购平台对接、业务指标监控、经营报表、基础业务日志、日常迭代、Bug 修复、业务流程设计、环境维护及微服务优化整合。围绕美团、抖音、大众点评等平台完成券核销、订单同步、门店映射等业务链路建设，保障线上流量到店履约的关键闭环。
+                </p>
+                <p class="timeline-text">
+                  深度参与收银台、会员卡、储值卡、次卡、优惠券、员工提成、业绩分账等门店经营核心模块，负责多租户隔离、租户配置、门店/员工权限体系、经营报表、对账、退款等能力建设，沉淀可复用 SaaS 业务组件，提升系统可维护性、数据可观测性和业务迭代效率。
                 </p>
               </div>
-
+              <button class="experience-toggle" type="button" aria-label="展开上海领健工作经历" aria-expanded="false" aria-controls="experience-lingjian" data-experience-toggle>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </button>
             </li>
 
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
+            <li class="experience-item is-toggleable is-collapsed">
+              <h4 class="h4 experience-item-title">荔枝集团 · 高级开发</h4>
+              <span>2021/8 — 2022/2</span>
+              <div class="experience-detail" id="experience-lizhi">
+                <p class="timeline-text">
+                  <strong>项目介绍：</strong>TIYA 是一款面向美国市场的实时语音社交 App，围绕陌生人交友、语音互动、兴趣匹配和多人房间构建社交场景，支持用户通过语音房、匹配组队、群组聊天、好友关系和实时互动建立连接。业务重点在于低延迟、高可用的实时互动体验，以及海外用户增长场景下的稳定服务支撑。
+                </p>
+                <p class="timeline-text">
+                  <strong>个人贡献：</strong>负责 App 基础需求迭代、核心接口开发、需求设计和业务架构方案，参与陌生人匹配、用户关系、语音房互动、消息链路、群组场景等后端能力建设，保障社交链路从用户发现、互动建立到关系沉淀的完整闭环。
+                </p>
+                <p class="timeline-text">
+                  针对海外实时社交场景优化服务调用链路和性能瓶颈接口，减少跨服务调用损耗，平均接口响应时间缩短 20%。通过监控分析、容量评估和底层服务重构，在不降低服务质量的情况下减少 30% 容器实例，兼顾用户体验、系统稳定性和资源成本。
+                </p>
+                <p class="timeline-text">
+                  参与基础技术平台建设，将用户资料、关系链、房间状态、消息通知、配置开关等高频能力抽象为可复用服务，降低重复开发成本，提升多业务模块协作效率。配合完善监控告警和容量评估机制，让海外实时社交业务在快速迭代下保持稳定交付。
                 </p>
               </div>
-
+              <button class="experience-toggle" type="button" aria-label="展开荔枝集团工作经历" aria-expanded="false" aria-controls="experience-lizhi" data-experience-toggle>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </button>
             </li>
 
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-
-                <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
+            <li class="experience-item is-toggleable is-collapsed">
+              <h4 class="h4 experience-item-title">宇信网络 · 高级开发</h4>
+              <span>2020/4 — 2021/8</span>
+              <div class="experience-detail" id="experience-yuxin">
+                <p class="timeline-text">
+                  <strong>项目介绍：</strong>参与短视频与兴趣社区类 App 建设，产品围绕内容发布、视频消费、社区互动、资讯分发、用户关系和支付转化构建年轻化社区生态，支撑用户围绕兴趣话题进行内容创作、讨论互动和关系沉淀。
+                </p>
+                <p class="timeline-text">
+                  <strong>个人贡献：</strong>作为后端核心开发，主导后端框架设计和核心链路落地，承担项目从 0 到 1 的研发、联调、上线和持续迭代工作。负责内容流、短视频、互动、搜索、支付等业务模块的服务设计，推动业务能力快速成型并稳定支撑产品上线。
+                </p>
+                <p class="timeline-text">
+                  针对内容社区高频访问场景进行性能治理，优化热点接口、缓存策略和服务调用链路，将业务 QPS 从约 1000 提升到 3000。围绕支付链路建设稳定性保障机制，强化交易记录、状态流转和异常兜底，确保关键资金链路可追踪、可核验、可恢复。
+                </p>
+                <p class="timeline-text">
+                  负责多环境维护、快速发布和线上热更新，保障产品在高频迭代阶段持续交付。通过代码重构、模块拆分和通用能力沉淀，提升系统扩展性和团队后续迭代效率。
                 </p>
               </div>
-
+              <button class="experience-toggle" type="button" aria-label="展开宇信网络工作经历" aria-expanded="false" aria-controls="experience-yuxin" data-experience-toggle>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </button>
             </li>
 
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
+            <li class="experience-item is-toggleable is-collapsed">
+              <h4 class="h4 experience-item-title">深圳新康医疗 · 后端开发</h4>
+              <span>2017/3 — 2019/12</span>
+              <div class="experience-detail" id="experience-xinkang">
+                <p class="timeline-text">
+                  <strong>项目介绍：</strong>参与区域医疗健康档案与家庭医生签约系统建设，面向居民、医生、管理机构提供健康档案采集、居民信息维护、家庭医生签约、随访管理、统计分析和业务监管能力，支撑连锁医疗机构和社区公共卫生服务的数字化管理。
+                </p>
+                <p class="timeline-text">
+                  <strong>个人贡献：</strong>负责后端模块框架设计、居民端/医生端/管理端接口开发、系统需求分析和业务流程落地，围绕健康档案、签约关系、医生工作台、居民服务和管理报表等核心场景完成服务设计与接口交付。
+                </p>
+                <p class="timeline-text">
+                  针对医疗数据统计口径复杂、报表维度多、内外网环境割裂等问题，参与业务报表优化、代码重构、部署流程整理和测试环境维护，提升系统稳定性、数据查询效率和交付可控性，为医疗业务长期运营提供基础支撑。
                 </p>
               </div>
-
+              <button class="experience-toggle" type="button" aria-label="展开深圳新康工作经历" aria-expanded="false" aria-controls="experience-xinkang" data-experience-toggle>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </button>
             </li>
 
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+            <li class="experience-item is-toggleable is-collapsed">
+              <h4 class="h4 experience-item-title">爱点击互动 · 后端开发</h4>
+              <span>2013/3 — 2017/2</span>
+              <div class="experience-detail" id="experience-iclick">
+                <p class="timeline-text">
+                  <strong>项目介绍：</strong>负责企业内部数字化基础平台建设，围绕人事、客户、广告业务、审批流、移动办公和 ERP 数据集成等场景，打通多个内部系统的数据链路，推动传统线下流程向电子化、流程化和移动化办公转型。
+                </p>
+                <p class="timeline-text">
+                  <strong>个人贡献：</strong>参与系统设计、需求分析和跨部门协作，独立或主导开发人事系统、广告竞拍、客户意向管理、ERP 数据同步和企业微信 OA 功能，为员工考勤、审批、薪酬、待办和客户业务流转提供统一入口。
+                </p>
+                <p class="timeline-text">
+                  同时承担服务器部署维护、虚拟化管理、数据备份和基础环境治理工作，负责从软件开发到硬件环境再到上线推广的完整交付链路。通过数据打通和流程自动化，提升内部协同效率，降低人工流转成本，并为后续企业级系统扩展打下基础。
                 </p>
               </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
+              <button class="experience-toggle" type="button" aria-label="展开爱点击工作经历" aria-expanded="false" aria-controls="experience-iclick" data-experience-toggle>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+              </button>
             </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
+          </ol>
         </section>
 
       </article>
 
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
+      <article class="education active" data-page="教育经历">
 
         <header>
-          <h2 class="h2 article-title">Resume</h2>
+          <h2 class="h2 article-title">教育经历</h2>
         </header>
 
-        <section class="timeline">
+        <section class="experience">
+          <ol class="experience-list">
 
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
-
-              <span>2007 — 2008</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
+            <li class="experience-item">
+              <h4 class="h4 experience-item-title">华南师范大学 · 网络工程</h4>
+              <span>2021 — 2025</span>
             </li>
 
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
-
-              <span>2006 — 2007</span>
-
-              <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
-
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Creative director</h4>
-
-              <span>2015 — Present</span>
-
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Art director</h4>
-
-              <span>2013 — 2015</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
+            <li class="experience-item">
+              <h4 class="h4 experience-item-title">武汉软件工程职业学院 · 软件技术</h4>
               <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
             </li>
 
           </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
         </section>
 
       </article>
@@ -1180,19 +298,7 @@
 
   </main>
 
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
   <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
