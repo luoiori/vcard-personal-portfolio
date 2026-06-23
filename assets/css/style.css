@@ -1867,6 +1867,21 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .navbar-link { --fs-8: 15px; }
 
+  .experience-item.is-collapsed .experience-detail {
+    overflow: visible;
+  }
+
+  .experience-item.is-collapsed .experience-detail .timeline-text,
+  .experience-item.is-collapsed .experience-detail .timeline-text:first-child {
+    display: block;
+    overflow: visible;
+  }
+
+  .experience-item.is-collapsed .experience-detail::after,
+  .experience-toggle {
+    display: none;
+  }
+
 
 
   /**
@@ -2085,7 +2100,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar, article { width: auto; }
 
-  article { min-height: 100%; }
+  article { min-height: auto; }
 
 
 
@@ -2098,7 +2113,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-inline: auto;
     display: flex;
     justify-content: center;
-    align-items: stretch;
+    align-items: flex-start;
     gap: 25px;
   }
 
